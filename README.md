@@ -14,12 +14,12 @@ We got our datasets from Kaggle, where others collected data by webscraping from
 
 ## Methods
 In this project, we made and used multiple different models including:
+Neural Networks
 Decision Tree
 Bagged Tree
 Random Forrest
 XGBoost
 Grid Searching
-Neural Networks
 Clustering
 
 ## Results
@@ -51,9 +51,6 @@ This graph shows the average rating of movies according to month of release. Bec
 ## Conclusions
 We recommend that Microsoft uses Buena Vistas studios or models their own studio after BV practices and creates an adventure movie with an NR rating. They should also hire Jean Negulseso. The run time of the movie should be between 100 minutes and 131 minutes. Microsoft should not put time and money into securing any particular release month.
 
-## Next Steps
-This project did not explore all possible avenues of increasing movie profitability. In the future, analyses could be performed regarding the actors who Microsoft should hire, what kind of storylines are received best by audiences, and what aspects of a movie trailer cause people to develop interest in seeing a movie. Additionally, it could benefit Microsoft to learn about the state of the film industry after COVID-19, which shut down theatres for a long period of time and may have impacted audience interest in ways that are not known yet.
-
 ## For More Information
 Please review our full analysis in [our Jupyter Notebook](./Final/Notebook.ipynb) or our [presentation](./microsoftmovieanalysispowerpoint.pdf).
 
@@ -64,7 +61,6 @@ For any additional questions, please contact **Joe Swing at jcswing@bsc.edu, Lor
 ```
 ├── data                                  <- data files used for analyses
 ├── images                                <- visualizations created
-├── notebooks                             <- individual notebooks
 ├── Final Notebook.ipynb                  <- code written for project with explanation
 ├── microsoftmovieanalysispowerpoint.pdf  <- PDF version of powerpoint
 └── README.md                             <- overview of project
