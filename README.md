@@ -48,8 +48,8 @@ This graph shows the average rating of movies according to month of release. Bec
 
 ![graph6](./images/Month_and_Rating.png)
 
-## Conclusions
-We recommend that Microsoft uses Buena Vistas studios or models their own studio after BV practices and creates an adventure movie with an NR rating. They should also hire Jean Negulseso. The run time of the movie should be between 100 minutes and 131 minutes. Microsoft should not put time and money into securing any particular release month.
+## Next Steps
+If we had more time, we would have continued to work on the Spotify API and gotten the release dates for the songs to filter them and only use those songs from later than 2010. 
 
 ## For More Information
 Please review our full analysis in [our Jupyter Notebook](./Final/Notebook.ipynb) or our [presentation](./microsoftmovieanalysispowerpoint.pdf).
