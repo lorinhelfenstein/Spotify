@@ -62,6 +62,6 @@ For any additional questions, please contact **Joe Swing at jcswing@bsc.edu, Lor
 ├── data                                  <- data files used for analyses
 ├── images                                <- visualizations created
 ├── Final Notebook.ipynb                  <- code written for project with explanation
-├── microsoftmovieanalysispowerpoint.pdf  <- PDF version of powerpoint
-└── README.md                             <- overview of project
+├── README.md                             <- PDF version of powerpoint
+└── Spotify.pdf                           <- overview of project
 ```
