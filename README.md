@@ -2,18 +2,25 @@
 **Authors:** Joe Swing, Lorin Helfenstein, Colette Crowder
 
 ## Overview
-The goal of this project is to find out what factors make songs popular and lead to reaching the 100 position charts. From there, we created models that can predict whether or not a particular song will be on the 100 position charts.
+The goal of this project is to find out what factors make songs popular and lead to reaching the 100 position charts. To figure this out, we created models that can predict whether or not a particular song will be a success.
 
 ## Business Problem
 Our hypothetical business problem is: What kind of song should an up-and-coming musical artist create? The artist that has approached our company wants to be as successful as possible and produce a song that makes it onto the charts. We have been tasked with discovering what factors lead to a song's popularity. Our findings will allow us to make reccomendations about what the artist's next song should be like.
 
 ## Data
-We worked with two separate datasets, both containing data about various songs. There was a lot of overlap between the two, but one dataset has information about whether or not a song was on the 100 position charts and the other dataset has information about each song's popularity. These two variables were our target variables. We worked with many predictor variables, including loudness, danceability, and speechiness. We ran separate analyses on the two datasets. 
+We worked with two separate datasets, both containing data about various songs. There was a lot of overlap between the two, but one dataset has information about whether or not a song was on the 100 position charts and the other dataset has information about each song's popularity. These two variables were our target variables. We worked with many predictor variables, including loudness, danceability, and speechiness.
 
-We got our datasets from Kaggle, where others collected the data by webscraping from billboard and shazam and using Spotify Web API.
+We got our datasets from Kaggle, where others collected data by webscraping from billboard and shazam and using Spotify Web API. We also gathered data about songs created in 2021 by using the Spotify Web API for ourselves.
 
 ## Methods
-Our process started with organizing our data by dropping irrelevant columns, creating new ones, sorting by specific values, and merging dataframes. While modeling our data, we used descriptive statistics to create helpful visuals that displayed our findings. Overall, our descriptive analysis is absolutely essential for anyone who wants to succeed in the movie industry.
+In this project, we made and used multiple different models including:
+Decision Tree
+Bagged Tree
+Random Forrest
+XGBoost
+Grid Searching
+Neural Networks
+Clustering
 
 ## Results
 
@@ -50,13 +57,14 @@ This project did not explore all possible avenues of increasing movie profitabil
 ## For More Information
 Please review our full analysis in [our Jupyter Notebook](./Final/Notebook.ipynb) or our [presentation](./microsoftmovieanalysispowerpoint.pdf).
 
-For any additional questions, please contact **Joe Swing at jcswing@bsc.edu, Lorin Helfenstein at le, or Colette Crowder at crcrowde@bsc.edu**
+For any additional questions, please contact **Joe Swing at jcswing@bsc.edu, Lorin Helfenstein at lehelfen@bsc.edu, or Colette Crowder at crcrowde@bsc.edu**
 
 ## Repository Structure
 
 ```
 ├── data                                  <- data files used for analyses
 ├── images                                <- visualizations created
+├── notebooks                             <- individual notebooks
 ├── Final Notebook.ipynb                  <- code written for project with explanation
 ├── microsoftmovieanalysispowerpoint.pdf  <- PDF version of powerpoint
 └── README.md                             <- overview of project
